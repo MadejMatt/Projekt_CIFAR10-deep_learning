@@ -52,9 +52,11 @@ Projekt_CIFAR10/
 └── README.md
 ```
 
-> **Uwaga:** plik z danymi (`data/cifar10_preprocessed.npz`, ~229 MB) oraz wagi modeli
-> (`experiments/**/model.pt`) są celowo **wykluczone z repozytorium** (`.gitignore`) ze względu na rozmiar.
-> W repo zostają lekkie artefakty: metryki (`metrics.json`), konfiguracje, pliki CSV i wykresy (`*.png`).
+> **Uwaga:** plik z danymi (`data/cifar10_preprocessed.npz`, ~229 MB) oraz wagi pośrednie z grid searcha
+> są celowo **wykluczone z repozytorium** (`.gitignore`) ze względu na rozmiar. W repo zostają natomiast
+> **finalne modele** — po jednym na architekturę (baseline nastrojony, VGG-like, ResNet-like, łącznie
+> ~61 MB) — żeby można było je załadować i przetestować bez ponownego treningu. Pozostałe artefakty
+> (metryki `metrics.json`, konfiguracje, pliki CSV, wykresy `*.png`) również są w repo.
 
 ---
 
