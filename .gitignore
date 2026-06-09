@@ -1,0 +1,31 @@
+# Dane (zbyt duze dla git)
+data/
+*.npz
+
+# Wagi modeli (duze, niepotrzebne w repo)
+*.pt
+*.pth
+experiments/**/model.pt
+
+# UWAGA: wykresy z eksperymentow (history.png, confusion_matrix.png) celowo
+# NIE sa ignorowane — sa lekkie (~1.3 MB) i potrzebne w raporcie/notatce.
+# Reszta artefaktow (metrics.json, config.json, *.csv) tez trafia do repo.
+
+# Srodowisko Pythona
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Narzedzia / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Materialy wewnetrzne (nie do publikacji)
+Opus_masterPrompt.md

@@ -1,0 +1,18 @@
+{
+  "arch": "resnet_like",
+  "optimizer": "sgd",
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "label_smoothing": 0.1,
+  "scheduler": "cosine",
+  "lr": 0.1,
+  "batch_size": 128,
+  "augment": true,
+  "dropout": 0.0,
+  "normalize": true,
+  "max_epochs": 200,
+  "patience": 20,
+  "seed": 42,
+  "num_workers": 0,
+  "early_stopping": false
+}

@@ -1,0 +1,16 @@
+{
+  "arch": "baseline",
+  "optimizer": "adam",
+  "lr": 0.001,
+  "batch_size": 128,
+  "dropout": 0.5,
+  "augment": false,
+  "normalize": false,
+  "scheduler": "none",
+  "label_smoothing": 0.0,
+  "weight_decay": 0.0,
+  "max_epochs": 100,
+  "patience": 15,
+  "seed": 42,
+  "num_workers": 0
+}
